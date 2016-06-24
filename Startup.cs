@@ -34,7 +34,7 @@ namespace SampleApp
 
                 context.Response.ContentLength = 11;
                 context.Response.ContentType = "text/plain";
-                await context.Response.WriteAsync("Hello world");
+                await context.Response.WriteAsync("Hello OpenShift world!");
             });
         }
 
